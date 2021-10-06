@@ -1,10 +1,10 @@
 <!--index.wxml-->
 <view class="container">
-    <image class="bgImg" src="../../image/home.jpg"></image>
+    <image class="bgImg" src="/image/home.jpg"></image>
     <other-widget class="other-widget">
         <view class="gotopage">
             <navigator url='/pages/home/home'>
-                 <image src='https://i.loli.net/2021/10/03/r5aoekwNYCZWbpz.jpg' class='tp'></image>
+                 <image src='/image/begin.png' class='tp'></image>
                 <!--<view class='ziti'>多人游戏</view> -->
             </navigator>
         </view>

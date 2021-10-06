@@ -3,14 +3,12 @@
     <other-widget class="other-widget">
         <view class="gotopage_single">
             <navigator url='/pages/single_game/single_game'>
-                <image src='https://iconfont.alicdn.com/t/0dbf3ff1-613a-4b61-90d8-23c275ba2f4a.png' class='tp1'></image>
-                <view class='font1'>单人游戏</view>
+                <image src='/image/one.png' class='item1' mode="aspectFit"/>
             </navigator>
         </view>
         <view class="gotopage_group">
             <navigator url='/pages/group_game/group_game'>
-                <image src='https://iconfont.alicdn.com/t/3211f68d-2c1d-48f3-8775-47eb233a8cce.png' class='tp2'></image>
-                <view class='font2'>多人游戏</view>
+                <image src='/image/mul.png' class='item2' mode="aspectFit"/>
             </navigator>
         </view>
     </other-widget>  <!-- other widget希望是放在背景图片之上的 -->
