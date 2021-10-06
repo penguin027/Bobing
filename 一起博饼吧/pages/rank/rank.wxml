@@ -1,0 +1,6 @@
+<view class="container">
+    <image class="bgImg" src="../../image/finalRank.jpg"></image>
+    <other-widget class="other-widget">
+        <navigator class='GotoGift' url='/pages/gift/gift'>点击查看礼物列表>></navigator>
+    </other-widget>  <!-- other widget希望是放在背景图片之上的 -->
+</view>
