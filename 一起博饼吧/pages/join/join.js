@@ -91,6 +91,7 @@ Page({
         roomID = e.detail.value
         console.log("输入房间名称",roomID)
       },
+   
 
       //确定按钮
      click(){
@@ -103,11 +104,12 @@ Page({
             this.setData({
                 infoMess:'',
                 roomID:roomID,
-                statu:1
+                statu:1,
+                num:""
             })
           }
-
-          if(!num){
+          num = this.data.num
+          if(!num){ //随机生成房间人数
             var t=this.random(2,4)
             this.setData({
                 num:t+'人',
