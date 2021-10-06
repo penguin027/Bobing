@@ -103,10 +103,11 @@ Page({
             this.setData({
                 infoMess:'',
                 roomID:roomID,
-                statu:1
+                statu:1,
+                num:''
             })
           }
-
+          num = this.data.num
           if(!num){
             var t=this.random(2,4)
             this.setData({
