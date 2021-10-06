@@ -45,6 +45,7 @@
                     <button class='press' bindtap='click2'>点击停止投掷</button>
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
+                    <image class='bowl' src="/image/bowl.png"></image>
                     <image class='img1' src="{{dicelist[0]}}"></image>
                     <image class='img2' src="{{dicelist[1]}}"></image>
                     <image class='img3' src="{{dicelist[2]}}"></image>
@@ -72,6 +73,7 @@
                     <button class='press' bindtap='click2'>点击停止投掷</button>
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
+                    <image class='bowl' src="/image/bowl.png"></image>
                     <image class='img1' src="{{dicelist[0]}}"></image>
                     <image class='img2' src="{{dicelist[1]}}"></image>
                     <image class='img3' src="{{dicelist[2]}}"></image>
@@ -79,6 +81,9 @@
                     <image class='img5' src="{{dicelist[4]}}"></image>
                     <image class='img6' src="{{dicelist[5]}}"></image>
                     <view class='rank'>{{rank}}</view>
+                    <navigator url="/pages/create/create">
+                        <view class="Again">点击重来>></view>
+                    </navigator>
                     <button class='press' bindtap='finish'>点击生成游戏结果</button>
                 </view>
             </view>
@@ -123,6 +128,7 @@
                     <button class='press' bindtap='click2'>点击停止投掷</button>
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
+                    <image class='bowl' src="/image/bowl.png"></image>
                     <image class='img1' src="{{dicelist[0]}}"></image>
                     <image class='img2' src="{{dicelist[1]}}"></image>
                     <image class='img3' src="{{dicelist[2]}}"></image>
@@ -153,6 +159,7 @@
                     <button class='press' bindtap='click2'>点击停止投掷</button>
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
+                    <image class='bowl' src="/image/bowl.png"></image>
                     <image class='img1' src="{{dicelist[0]}}"></image>
                     <image class='img2' src="{{dicelist[1]}}"></image>
                     <image class='img3' src="{{dicelist[2]}}"></image>
@@ -183,6 +190,7 @@
                     <button class='press' bindtap='click2'>点击停止投掷</button>
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
+                    <image class='bowl' src="/image/bowl.png"></image>
                     <image class='img1' src="{{dicelist[0]}}"></image>
                     <image class='img2' src="{{dicelist[1]}}"></image>
                     <image class='img3' src="{{dicelist[2]}}"></image>
@@ -210,6 +218,9 @@
                     <text class='rank_3'>{{rank3}}</text>
                     <text class='score_3'>{{score3}}</text>
                 </view>
+                <navigator url="/pages/create/create">
+                    <view class="Again">点击重来>></view>
+                </navigator>
                 <view class='Goto' bindtap='toFirstPage'>点击跳转首页>></view>
             </view>
         </view>
@@ -239,6 +250,7 @@
                     <button class='press' bindtap='click2'>点击停止投掷</button>
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
+                    <image class='bowl' src="/image/bowl.png"></image>
                     <image class='img1' src="{{dicelist[0]}}"></image>
                     <image class='img2' src="{{dicelist[1]}}"></image>
                     <image class='img3' src="{{dicelist[2]}}"></image>
@@ -272,6 +284,7 @@
                     <button class='press' bindtap='click2'>点击停止投掷</button>
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
+                    <image class='bowl' src="/image/bowl.png"></image>
                     <image class='img1' src="{{dicelist[0]}}"></image>
                     <image class='img2' src="{{dicelist[1]}}"></image>
                     <image class='img3' src="{{dicelist[2]}}"></image>
@@ -305,6 +318,7 @@
                     <button class='press' bindtap='click2'>点击停止投掷</button>
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
+                    <image class='bowl' src="/image/bowl.png"></image>
                     <image class='img1' src="{{dicelist[0]}}"></image>
                     <image class='img2' src="{{dicelist[1]}}"></image>
                     <image class='img3' src="{{dicelist[2]}}"></image>
@@ -338,6 +352,7 @@
                     <button class='press' bindtap='click2'>点击停止投掷</button>
                 </view>
                 <view class='result' wx:if="{{statu==3}}">
+                    <image class='bowl' src="/image/bowl.png"></image>
                     <image class='img1' src="{{dicelist[0]}}"></image>
                     <image class='img2' src="{{dicelist[1]}}"></image>
                     <image class='img3' src="{{dicelist[2]}}"></image>
@@ -368,6 +383,9 @@
                     <text class='rank_4'>{{rank4}}</text>
                     <text class='score_4'>{{score4}}</text>
                 </view>
+                <navigator url="/pages/join/join">
+                    <view class="Again">点击重来>></view>
+                </navigator>
                 <view class='Goto' bindtap='toFirstPage'>点击跳转首页>></view>
             </view>
         </view>

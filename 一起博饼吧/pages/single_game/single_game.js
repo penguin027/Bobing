@@ -3,10 +3,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    statu: 0, //状态：0未开始，1投掷中，2出结果
     resultList: [],
     rank: "", //判定的结果
-    img:[],
+    img: [],
     // 骰子图片地址
     dices: [
       '../../image/playDice.gif',
@@ -32,12 +31,13 @@ Page({
   click() {
     console.log("点击投掷")
     this.setData({
-      img:"/image/playDice.gif",
-      dicelist:[],
+      img: "/image/playDice.gif",
+      dicelist: [],
+      rank: ""
     })
     setTimeout(() => {
       this.setData({
-        img: "",
+        img: ""
       })
       this.result()
     }, 1000)
@@ -147,12 +147,6 @@ Page({
       })
     }
     console.log("输出投掷结果:", this.data.rank)
-  },
-
-  click3() {
-    this.setData({
-      statu: 0
-    })
   },
   toFirstPage() { //跳转到首页
     wx.switchTab({

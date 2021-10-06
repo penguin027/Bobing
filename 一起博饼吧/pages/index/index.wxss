@@ -17,7 +17,7 @@ page {
   position: fixed;
   width: 90%;
   margin: 0 5%;
-  bottom: 460rpx;
+  bottom: 450rpx;
   left: 190rpx;
   display: flex;
   /* 如果把盒子设置为弹性盒子,必须要加的 */
@@ -28,7 +28,7 @@ page {
   justify-content: center;
   margin-top: 200rpx;
   width: 280rpx;
-  height: 100rpx;
+  height: 120rpx;
   color: var(--yellowColor);
   background-color: var(--redColor);
 }
