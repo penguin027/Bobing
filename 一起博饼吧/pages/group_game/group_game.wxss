@@ -2,6 +2,16 @@
 .other-widget{
     position: absolute;
 }
+page {
+  height: 100%;
+}
+.bgImg {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
 .font_create{
   position: fixed;
   margin: 0 5%;
