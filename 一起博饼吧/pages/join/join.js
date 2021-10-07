@@ -11,6 +11,7 @@ Page({
      * 页面的初始数据
      */
     data: {
+      isAgain:['1'],//标记是否重来
       p:1, //第几个玩家在游戏中  0表示都投掷完毕
       statu:0, //状态：0创建房间界面，1未开始，2投掷中, 3出结果 ,4加入房间界面
       resultList:[],
@@ -312,6 +313,9 @@ Page({
       })
     }
     console.log("排名完成")
+    this.setData({
+      isAgain:[]
+    })
   },
   toFirstPage(){ //跳转到首页
     wx.switchTab({  
