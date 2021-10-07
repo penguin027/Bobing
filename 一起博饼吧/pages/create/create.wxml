@@ -1,3 +1,4 @@
+
 <view class="container" wx:if="{{statu==0}}">
     <image class="bgImg"
         src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fbpic.588ku.com%2Fback_pic%2F05%2F64%2F56%2F795b6712ffa1723.jpg%21r650%2Ffw%2F800&refer=http%3A%2F%2Fbpic.588ku.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1635861213&t=9dfe2acfda3e8057196d2585a0452471">
@@ -101,9 +102,7 @@
                     <text class='rank_2'>{{rank2}}</text>
                     <text class='score_2'>{{score2}}</text>
                 </view>
-                <navigator url="/pages/create/create">
-                    <view class="Again">点击重来>></view>
-                </navigator>
+                <view class='again' bindtap='again'>再来一局</view>
                 <view class='Goto' bindtap='toFirstPage'>点击跳转首页>></view>
             </view>
         </view>
@@ -221,9 +220,7 @@
                     <text class='rank_3'>{{rank3}}</text>
                     <text class='score_3'>{{score3}}</text>
                 </view>
-                <navigator url="/pages/create/create">
-                    <view class="Again">点击重来>></view>
-                </navigator>
+                <view class='again' bindtap='again'>再来一局</view>
                 <view class='Goto' bindtap='toFirstPage'>点击跳转首页>></view>
             </view>
         </view>
@@ -386,9 +383,7 @@
                     <text class='rank_4'>{{rank4}}</text>
                     <text class='score_4'>{{score4}}</text>
                 </view>
-                <navigator url="/pages/create/create">
-                    <view class="Again">点击重来>></view>
-                </navigator>
+                <view class='again' bindtap='again'>再来一局</view>
                 <view class='Goto' bindtap='toFirstPage'>点击跳转首页>></view>
             </view>
         </view>

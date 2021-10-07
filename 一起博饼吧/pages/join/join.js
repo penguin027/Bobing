@@ -314,6 +314,14 @@ Page({
     }
     console.log("排名完成")
   },
+
+  again(){  //再来一局
+    this.setData({
+      statu: 1 ,
+      p:1
+    })
+  },
+
   toFirstPage(){ //跳转到首页
     wx.switchTab({  
       url: '/pages/index/index'  
